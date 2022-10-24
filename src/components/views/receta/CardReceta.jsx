@@ -6,7 +6,10 @@ const CardReceta = () => {
             <Card>
                 <Row>
                     <Col sm={12} md={4} lg={3}>
-                        <Card.Img className="altoCardImageReceta" variant="top" src="{receta.imagen}" />
+                        <Card.Img
+                            variant="top"
+                            src="https://images.pexels.com/photos/769969/pexels-photo-769969.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                        />
                     </Col>
                     <Col sm={12} md={8} lg={9}>
                         <Card.Body>
