@@ -1,5 +1,7 @@
-.anchoFotoReceta {
-    width: 18rem;
+.FotoDetalleReceta {
+    width: 100%;
+    height: 150px;
+    height: fit-content;
 }
 .anchoDetalleReceta {
     width: 20rem;

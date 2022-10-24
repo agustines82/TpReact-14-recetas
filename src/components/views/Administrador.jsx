@@ -5,7 +5,7 @@ const Administrador = () => {
     return (
         <Container className="mainSection">
             <article className="d-flex justify-content-between align-items-center ">
-                <h1 className="display-3 mt-3">Productos disponibles</h1>
+                <h1 className="display-3 mt-3">Recetas</h1>
                 <Link className="h-100 btn btn-primary" to="/administrar/crear">
                     Agregar
                 </Link>
@@ -16,10 +16,12 @@ const Administrador = () => {
                 <thead>
                     <tr>
                         <th>Cod</th>
-                        <th>Producto</th>
-                        <th>Precio</th>
+                        <th>Receta</th>
+                        <th>Categoria</th>
                         <th>URL de imagen</th>
-                        <th>Cat</th>
+                        <th>Descripcion</th>
+                        <th>Ingredientes</th>
+                        <th>Preparacion</th>
                         <th></th>
                     </tr>
                 </thead>
