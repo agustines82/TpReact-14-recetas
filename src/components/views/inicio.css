@@ -1,7 +1,6 @@
-.FotoDetalleReceta {
-    width: 100%;
+.fotoDetalleReceta {
     height: 150px;
-    height: fit-content;
+    width: 600px;
 }
 .anchoDetalleReceta {
     width: 20rem;
