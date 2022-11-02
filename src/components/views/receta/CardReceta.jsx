@@ -2,7 +2,7 @@ import { Col, Card, Row } from "react-bootstrap";
 import { Link } from "react-router-dom";
 const CardReceta = ({ receta }) => {
     return (
-        <Col className="my-3">
+        <Col className="my-3" sm={12}>
             <Card>
                 <Row>
                     <Col sm={12} md={4} lg={3}>

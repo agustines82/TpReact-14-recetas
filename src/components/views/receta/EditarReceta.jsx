@@ -75,10 +75,10 @@ const EditarReceta = () => {
                                 })}
                             >
                                 <option value="">Seleccione una opción...</option>
-                                <option value="Bebida caliente">Comidas principales</option>
-                                <option value="Bebida fria">Desayunos / meriendas</option>
-                                <option value="Dulce">Ensaladas</option>
-                                <option value="Salado">Snacks</option>
+                                <option value="comidas">Comidas principales</option>
+                                <option value="desayunos">Desayunos / meriendas</option>
+                                <option value="ensaladas">Ensaladas</option>
+                                <option value="snacks">Snacks</option>
                             </Form.Select>
                             <Form.Text className="text-danger">{errors.categoria?.message}</Form.Text>
                         </Form.Group>

@@ -16,8 +16,8 @@ const DetalleReceta = () => {
     }, []);
     return (
         <>
-            <Container className="mainSection my-3">
-                <Card className="fotoDetalleReceta">
+            <Container className="mainSection">
+                <Card>
                     <Card.Img variant="top" src={receta.imagen} />
                     <Card.Body>
                         <Card.Title>{receta.nombreReceta}</Card.Title>
